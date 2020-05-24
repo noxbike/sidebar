@@ -1,0 +1,13 @@
+.sidebar{
+    background-color: black;
+    height: 100vh;
+    width:20%;
+    padding:1% 0% 1% 5%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+}
