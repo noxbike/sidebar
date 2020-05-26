@@ -1,12 +1,10 @@
 $(function(){
     $('.logo').click(function(){
         
-        var box = $('.sidebar').width();
-        console.log(box);
-        var result = box == '490' ? '147' : '490';
+        var boxWidth = $('.sidebar').width();
+        var wiDth = boxWidth == '490' ? '147' : '490';
         
-        $(".sidebar").animate({
-            width: result
-        });
+        $(".sidebar").animate({ width: wiDth });
+        $("span").toggle('slow');
     })
 })

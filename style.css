@@ -1,6 +1,5 @@
 body{
     margin: 0%;
-    font-size: 5rem;
     font-family: sans-serif;
 }
 
@@ -8,15 +7,21 @@ body{
     margin: 0%;
     height: 100vh;
     width:15%;
-    text-align: center;
+    text-align: left;
     background-color: black;
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+}
+
+.sidebar a{
+    display:flex;
+    align-items: center;
+    padding-right: auto;
+    padding-left: 20%;
+    
 }
 
 .menu{
-    text-align: center;
     padding: 0% 0% 0% 0%;
     height: 90%;
     background-color: #404147;
@@ -24,8 +29,12 @@ body{
     flex-direction: column;
 }
 
+.sidebar i{
+    font-size: 5rem;
+}
+
 .menu a {
-    padding-top: 30%;
+    margin-top: 10%;
     text-decoration: none;
     color: white;
 }
@@ -44,4 +53,7 @@ body{
 
 span{
     display:none;
+    text-align: left;
+    padding-left: 10%;
+    font-size: 3.5rem;
 }
