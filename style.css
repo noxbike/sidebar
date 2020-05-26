@@ -1,6 +1,7 @@
 body{
     margin: 0%;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    font-family: sans-serif;
 }
 
 .sidebar{
@@ -15,15 +16,20 @@ body{
 }
 
 .menu{
+    text-align: left;
+    padding: 0% 0% 0% 20%;
     height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.menu p {
+.menu a {
+    padding: 5%;
+    text-decoration: none;
+    color: white;
 }
 
-.menu p:hover{
+.menu a:hover{
     margin-left: 10%;
 }
